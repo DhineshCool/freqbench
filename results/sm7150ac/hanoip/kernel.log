@@ -1,0 +1,72 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 4.14.190-perf-v1 (cool585@mint) (Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d), GNU ld (binutils-2.27-bd24d23f) 2.27.0.20170315) #1 SMP PREEMPT Sat Jul 2 22:02:50 IST 2022
+[    0.000000] Boot CPU: AArch64 Processor [51df805e]
+[    0.000000] memblock_reserve: 0x902f4 setup_arch+0xac/0x5a4
+[    0.000000] Machine: hanoip
+[    0.000000] OF: reserved mem: OVERLAP DETECTED!
+               disp_rdump_region@9c000000 (0x000000009c000000--0x000000009d800000) overlaps with cont_splash_region@9c000000 (0x000000009c000000--0x000000009d700000)
+[    0.000000] Reserved memory: created CMA memory pool at 0x00000000ff000000, size 12 MiB
+[    0.000000] OF: reserved mem: initialized node adsp_region, compatible id shared-dma-pool
+[    0.000000] Reserved memory: created CMA memory pool at 0x00000000fec00000, size 4 MiB
+[    0.000000] OF: reserved mem: initialized node cdsp_region, compatible id shared-dma-pool
+[    0.000000] Reserved memory: created CMA memory pool at 0x000000017b800000, size 36 MiB
+[    0.000000] OF: reserved mem: initialized node mem_dump_region, compatible id shared-dma-pool
+[    0.000000] Reserved memory: created CMA memory pool at 0x00000000fcc00000, size 32 MiB
+[    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+[    0.000000] Reserved memory: created CMA memory pool at 0x00000000f4000000, size 140 MiB
+[    0.000000] OF: reserved mem: initialized node secure_display_region, compatible id shared-dma-pool
+[    0.000000] Reserved memory: created CMA memory pool at 0x00000000f3800000, size 8 MiB
+[    0.000000] OF: reserved mem: initialized node sp_region, compatible id shared-dma-pool
+[    0.000000] Reserved memory: created CMA memory pool at 0x00000000f2800000, size 16 MiB
+[    0.000000] OF: reserved mem: initialized node qseecom_ta_region, compatible id shared-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000085700000, size 6 MiB
+[    0.000000] OF: reserved mem: initialized node hyp_region@85700000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000085e00000, size 1 MiB
+[    0.000000] OF: reserved mem: initialized node xbl_aop_mem@85e00000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000085fff000, size 0 MiB
+[    0.000000] OF: reserved mem: initialized node sec_apps_region@85fff000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000086000000, size 2 MiB
+[    0.000000] OF: reserved mem: initialized node smem@86000000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000086200000, size 65 MiB
+[    0.000000] OF: reserved mem: initialized node removed_region@86200000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x000000008ab00000, size 5 MiB
+[    0.000000] OF: reserved mem: initialized node camera_region@8ab00000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x000000008b000000, size 132 MiB
+[    0.000000] OF: reserved mem: initialized node modem_region@8b000000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000093400000, size 5 MiB
+[    0.000000] OF: reserved mem: initialized node pil_video_region@93400000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000093900000, size 30 MiB
+[    0.000000] OF: reserved mem: initialized node cdsp_regions@93900000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000095700000, size 30 MiB
+[    0.000000] OF: reserved mem: initialized node pil_adsp_region@95700000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000097500000, size 1 MiB
+[    0.000000] OF: reserved mem: initialized node wlan_msa_region@97500000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000097680000, size 0 MiB
+[    0.000000] OF: reserved mem: initialized node npu_region@97680000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000097700000, size 0 MiB
+[    0.000000] OF: reserved mem: initialized node ipa_fw_region@97700000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000097710000, size 0 MiB
+[    0.000000] OF: reserved mem: initialized node ipa_gsi_region@97710000, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x0000000097715000, size 0 MiB
+[    0.000000] OF: reserved mem: initialized node gpu_region@97715000, compatible id removed-dma-pool
+[    0.000000] Reserved memory: created DMA memory pool at 0x000000009e400000, size 20 MiB
+[    0.000000] OF: reserved mem: initialized node qseecom_region@9e400000, compatible id shared-dma-pool
+[    0.000000] On node 0 totalpages: 962762
+[    0.000000]   DMA zone: 6992 pages used for memmap
+[    0.000000]   DMA zone: 0 pages reserved
+[    0.000000]   DMA zone: 447434 pages, LIFO batch:31
+[    0.000000]   Normal zone: 8052 pages used for memmap
+[    0.000000]   Normal zone: 515328 pages, LIFO batch:31
+[    0.000000] psci: probing for conduit method from DT.
+[    0.000000] psci: PSCIv1.1 detected in firmware.
+[    0.000000] psci: Using standard PSCI v0.2 function IDs
+[    0.000000] psci: MIGRATE_INFO_TYPE not supported.
+[    0.000000] psci: SMC Calling Convention v1.1
+[    0.000000] random: fast init done
+[    0.000000] random: get_random_bytes called from start_kernel+0x94/0x554 with crng_init=1
+[    0.000000] percpu: Embedded 22 pages/cpu s49560 r8192 d32360 u90112
+[    0.000000] pcpu-alloc: s49560 r8192 d32360 u90112 alloc=22*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 [0] 4 [0] 5 [0] 6 [0] 7 
+[    0.000000] CPU features: kernel page table isolation disabled by kernel configuration
+[    0.000000] CPU features: detected: Hardware dirty bit management
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 947718

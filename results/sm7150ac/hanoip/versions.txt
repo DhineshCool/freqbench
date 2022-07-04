@@ -1,0 +1,2 @@
+Kernel: Linux version 4.14.190-perf-v1 (cool585@mint) (Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d), GNU ld (binutils-2.27-bd24d23f) 2.27.0.20170315) #1 SMP PREEMPT Sat Jul 2 22:02:50 IST 2022
+Python: Python 3.8.5
