@@ -1,0 +1,2 @@
+Model: Google Inc. MSM sdm845 B1 DVT1.1;
+Compatible: google,b1c1-sdm845;qcom,sdm845;

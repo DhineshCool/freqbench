@@ -1,0 +1,2 @@
+Kernel: Linux version 4.9.337-teest-ab113 (cool585@SpeedHorn.LegacyServer.in) (Android (7284624, based on r416183b) clang version 12.0.5 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)) #2 SMP PREEMPT Sat Dec 9 13:09:59 IST 2023
+Python: Python 3.8.5
